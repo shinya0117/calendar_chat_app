@@ -46,7 +46,8 @@
 | Column     | Type       | Options                        |
 | ---------- | ---------- | ------------------------------ |
 | title      | string     | nul: false                     |
-| time_start | integer    | nul: false                     |
+| start_time | datetime   | nul: false                     |
+| end_time   | datetime   | nul: false                     |
 | user       | references | null: false, foreign_key: true |
 | room       | references | null: false, foreign_key: true |
 
