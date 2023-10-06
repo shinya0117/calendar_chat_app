@@ -15,6 +15,10 @@ default: &default
 
 development:
   <<: *default
+  adapter: mysql2
+  username: root
+  password:
+  host: localhost
   database: calendar_chat_app_development
 
 # Warning: The database defined as "test" will be erased and
